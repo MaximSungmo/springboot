@@ -71,7 +71,7 @@
 				<artifactId>tomcat-maven-plugin</artifactId>
 				<configuration>
 					<url>http://127.0.0.1:8080/manager/text</url>
-					<path>/springboot-mysite</path>
+					<path>/mysite5</path>
 					<username>admin</username>
 					<password>manager</password>
 				</configuration>
