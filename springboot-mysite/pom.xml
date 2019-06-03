@@ -57,4 +57,17 @@
 		
 	</dependencies>
 
+	<build>
+		<finalName>${artifactId}</finalName>
+		<plugins>
+			<plugin>
+				<artifactId>maven-war-plugin</artifactId>
+				<configuration>
+					<warSourceDirectory>src/main/webapp</warSourceDirectory>
+				</configuration>
+			</plugin>
+			
+		</plugins>
+	
+	</build>
 </project>
